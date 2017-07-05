@@ -1,56 +1,81 @@
-* {
+/** {
 	border: 1px solid grey;
+}*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
 }
 
 body {
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-/*header {
-	display: inline-block;
-	float: right;
-}*/
+header {
+	display: flex;
+	justify-content: right;
+	padding: 10px;
+	color: #222;
+}
 
-/*footer {
-	position: absolute;
-	bottom: 0;
-}*/
+.saisie {
+	text-align: center;
+	margin: 20px;
+}
 
-#saisie {
-	width: 400px;
-	height: 30px;
+#barre_recherche {
 	margin: auto;
+	height: 50px;
+	width: 500px;
+	border: 1px solid #ecf0f1;
+	border-radius: 2px;
 }
 
 .contain1, footer{
 	display: flex;
+	justify-content: center;
 }
+
+.google {
+	text-align: center;
+}
+
+.bouton {
+	font-weight: bold;
+	color: #666;
+	margin: 12px;
+	/*background-color: #F6F6F6;*/
+}
+
+bouton:hover {
+	border
+}
+
 
 footer {
-	width: 100%;
 	justify-content: space-between;
+	background-color: #F2F2F2;
+	border-top: 1px solid rgb(220,220,220);
 }
 
-/*.main {
-	width: 300px;
-	height: 200px;
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-}*/
 
-.lien_head {
-	display: inline-block;
+
+header a{
 	padding: 5px;
 }
 
-/*.boutons {
-	display: inline-block;
+footer {
+	padding: 12px;
 }
-*/
+footer a{
+	padding: 15px;
+}
